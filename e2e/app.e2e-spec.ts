@@ -1,10 +1,10 @@
-import { RedLeafAppPage } from './app.po';
+import { AppPage } from './app.po';
 
 describe('red-leaf-app App', () => {
-  let page: RedLeafAppPage;
+  let page: AppPage;
 
   beforeEach(() => {
-    page = new RedLeafAppPage();
+    page = new AppPage();
   });
 
   it('should display welcome message', () => {
